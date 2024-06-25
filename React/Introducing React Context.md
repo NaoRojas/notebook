@@ -32,7 +32,7 @@ App.js
     </AuthContext.Provider>
 ```
 
-**AuthContext Provider** is a component that we can use in our JSX code, and we can wrap it around other components and those toher components amd all their descendat components, so all their children and their children's children and so on,  all those component will now hace access to that Context.
+**AuthContext Provider** is a component that we can use in our JSX code, and we can wrap it around other components and those toher components and all their descendat components, so all their children and their children's children and so on,  all those component will now hace access to that Context.
 
 Listening Part:
 

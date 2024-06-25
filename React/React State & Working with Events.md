@@ -87,7 +87,7 @@ We want to call this component function again when our state changes.
 
 And by calling this **state updating function** that is happening, because by calling this function, you are telling React that you wanna assign a new value to this state and that then also tells React that the component in which this state was registered, with **useState** should be re-evaluated.
 
-And therefore React will go ahead and executed this component function again, and therefore also evualuates this JSX code again.
+And therefore React will go ahead and execute this component function again, and therefore also evualuates this JSX code again.
 
 And then it will draw any changes which it's detects compared to the last time it evaluated this onto the screen.
 

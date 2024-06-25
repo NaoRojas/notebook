@@ -200,8 +200,9 @@ const [state, dispacthFn] = useReducer(reducerFn, initialState, initFn)
 
 In the previous lecture, we used object destructuring to add object properties as dependencies to `useEffect()`.
 
-```
-const { someProperty } = someObject;useEffect(() => {  
+```react
+const { someProperty } = someObject;
+useEffect(() => {  
 // code that only uses someProperty ...
 }, 
 [someProperty]
